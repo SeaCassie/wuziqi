@@ -38,6 +38,13 @@ function AIfn(coode) {
             let arr1=$(".chess").filter(function (index,value) {
                 return value.id==id;
             });
+            if (arr1.length==0) {
+                let id1 = i + "_" + (j * 1 - 1);
+                arr1 = $(".chess").filter(function (index, value) {
+                    return value.id == id1;
+                });
+            }
+
             arr1.css("backgroundColor","#000000").addClass("black")
             black[id]=true;
             delete blank[id];
