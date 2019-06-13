@@ -1,0 +1,30 @@
+@import "var.scss";
+$width:30px;
+#main{
+  width:$width ;
+  color: #ffc4ff;
+}
+//
+//@mixin box1($selector){
+//  body.box1 #($selector):before{
+//  content: "自己扇自己三巴掌，涛";
+//}
+//}
+.box{
+  border:{
+    style:solid;
+    width: 1px;
+    color: #dddaff;
+  }
+
+}
+.box1 {
+  border: {
+    style: solid;
+    width: 1px;
+    color: #ddd;
+  }
+}
+box3{
+  color: $color;
+}

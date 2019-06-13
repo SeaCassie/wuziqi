@@ -1,0 +1,16 @@
+#main {
+  width: 30px;
+  color: #ffc4ff; }
+
+.box {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddaff; }
+
+.box1 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd; }
+
+box3 {
+  color: red; }
